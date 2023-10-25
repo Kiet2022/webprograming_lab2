@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    <form action="">
+      <table>
+        <caption>
+          REGISTER
+        </caption>
+
+        <tr>
+          <td>
+            <fieldset>
+              <legend>PERSONAL INFORMATION</legend>
+              <table>
+                <tr>
+                  <th align="left">Fullname</th>
+                  
+                  <td colspan="2">:
+                    <input
+                      type="text"
+                      name="fullname"
+                      required="required"
+                      autofocus="autofocus"
+                    />
+                  </td>
+                </tr>
+
+                <tr><td>Day: <input type="number" max="31" min="1" name="dayinmonth" id=""></td> <td>Month: <input type="number" max="12" min="1" name="" id=""></td> <td>Year: <input type="tel" min="1980" max="2023" name="" id=""></td></tr>
+                <tr>
+                    <th align="left">Gender</th>
+                    
+                    <td colspan="2">:
+                      <input
+                        type="radio"
+                        name="male"
+                        checked="checked"
+                        id="gender_male"
+                      />
+                      <label for="gender_male">Male</label>
+                      <input
+                      type="radio"
+                      name="female"
+                      id="gender_female"
+                    />
+                    <label for="gender_female">Female</label>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th align="left">Address</th>
+                    
+                    <td colspan="2">:
+                     <textarea name="" id="" cols="30" rows="5"></textarea>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th align="left">Phone</th>
+                    
+                    <td colspan="2">:
+                      <input
+                        type="tel"
+                        name="phone"
+                        required="required"
+                      />
+                    </td>
+                  </tr>
+                  <tr>
+                    <th align="left">Email</th>
+                    
+                    <td colspan="2">:
+                      <input
+                        type="email"
+                        name="email"
+                        required="required"
+                      />
+                    </td>
+                  </tr>
+              </table>
+            </fieldset>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <fieldset>
+              <legend>LOGIN INFORMATION</legend>
+              <table>
+                <tr>
+                  <th align="left">Username</th>
+                  <td>:</td>
+                  <td>
+                    <input
+                      type="text"
+                      name="USER"
+                      required="required"
+                      autofocus="autofocus"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <th align="left">Password</th>
+                  <td>:</td>
+                  <td>
+                    <input
+                      type="password"
+                      name="password"
+                      required="required"
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <th align="left">Confirm password</th>
+                  <td>:</td>
+                  <td>
+                    <input
+                      type="confirmpassword"
+                      name="password"
+                      required="required"
+                    />
+                  </td>
+                </tr>
+                <tr align="left">
+                  <td colspan="3">
+                    <button type="submit">Submit</button>
+                    <button type="button">Cancel</button>
+                  </td>
+                </tr>
+              </table>
+            </fieldset>
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
