@@ -5,13 +5,13 @@
       <tr>
         <th>Fullname*</th>
         <td>
-          <input name="Name" type="text" placeholder="Enter your fullname" />
+          <input name="Name" type="text" placeholder="Enter your fullname" required="required"/>
         </td>
       </tr>
       <tr>
         <th>Email*</th>
         <td>
-          <input name="Email" type="email" placeholder="Enter your email" />
+          <input name="Email" type="email" placeholder="Enter your email"  required="required"/>
         </td>
       </tr>
       <tr>
@@ -21,6 +21,7 @@
             name="Passwork"
             type="password"
             placeholder="Enter your passwork"
+            required="required"
           />
         </td>
       </tr>
@@ -31,12 +32,13 @@
             name="Name"
             type="password"
             placeholder="Confirm your passwork"
+            required="required"
           />
         </td>
       </tr>
       <tr>
         <th>Phone Number*</th>
-        <td><input name="Phone" type="number" /></td>
+        <td><input name="Phone" type="tel"  required="required"/></td>
       </tr>
       <tr>
         <th>Address</th>
@@ -114,7 +116,7 @@
         </td>
       </tr>
       <tr>
-        <td colspan="2"><button type="submit">Submit</button></td>
+        <td colspan="2" align="center"><button type="submit" >Submit</button></td>
       </tr>
     </table>
   </body>
